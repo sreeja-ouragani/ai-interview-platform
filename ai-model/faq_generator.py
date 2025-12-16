@@ -24,7 +24,11 @@ def clean_questions(questions):
 # Function to generate interview questions
 def generate_interview_questions(job_role, num_questions=5):
     prompt = f"Generate {num_questions} interview questions for a {job_role} role."
+<<<<<<< HEAD
     model = genai.GenerativeModel("models/gemini-2.5-flash")
+=======
+    model = genai.GenerativeModel("models/gemini-1.5-pro")
+>>>>>>> f9f69028bc289077f2fdba004522fcd615b36afd
     response = model.generate_content(prompt)
 
     # Extract text response and clean questions

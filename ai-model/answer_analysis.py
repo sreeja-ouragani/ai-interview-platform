@@ -122,7 +122,6 @@ def calculate_logic_score(answer, readability_score, grammar_errors):
     
     final_score = max(0, base_score - grammar_penalty + structure_bonus)
     return int(final_score)
-
 # Example usage
 if __name__ == "__main__":
     answer = input("Enter your interview answer: ")
