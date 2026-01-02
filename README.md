@@ -15,34 +15,40 @@ A comprehensive AI-powered interview preparation platform built with Python Flas
 2. **Code Execution** - Run code with test cases using Judge0 API
 3. **Performance Tracking** - Track interview history and scores
 
-## Quick Start
+## 🚀 Quick Start
 
-### 1. Install Dependencies
+### 1. Prerequisites
+- Python 3.8+
+- Node.js (v18+) & npm
 
+### 2. Backend Setup
 ```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-### 2. Configure API Keys
-
-Edit the `.env` file and add your Mistral API key:
-
-```env
-MISTRAL_API_KEY=your_mistral_api_key_here
-```
-
-**Get Mistral API Key:**
-- Visit: https://console.mistral.ai/
-- Sign up and get your API key
-- Paste it in the `.env` file
-
-### 3. Run the Server
-
-```bash
+# Configure API Keys in .env (Add MISTRAL_API_KEY)
 python app.py
 ```
+The backend server will start at `http://127.0.0.1:5000`
 
-The server will start at `http://127.0.0.1:5000`
+### 3. Frontend Setup
+```bash
+# Navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+The frontend will start at `http://localhost:5173`
+
+## 🔗 Access the Application
+
+- **Frontend (Web UI):** [http://localhost:5173](http://localhost:5173)
+- **Backend (API):** [http://127.0.0.1:5000](http://127.0.0.1:5000)
+- **Backend Health Check:** [http://127.0.0.1:5000/api/health](http://127.0.0.1:5000/api/health)
 
 ## API Endpoints
 
@@ -198,12 +204,10 @@ curl -X POST http://127.0.0.1:5000/api/interview/hr/question \
 
 ## Next Steps
 
-After setting up the backend:
-1. Test all API endpoints
-2. Build frontend (HTML/CSS/JavaScript)
-3. Integrate frontend with backend APIs
-4. Add more questions to question banks
-5. Deploy to production
+1. **Add More Questions:** Expand `data/questions_mcq.json` and `data/questions_coding.json`.
+2. **Deploy:** Prepare for production deployment (AWS/Heroku/Vercel).
+3. **Enhance UI:** Add more interactive charts and visualizations for feedback.
+4. **Voice Support:** Improve voice-to-text accuracy for HR rounds.
 
 ## Requirements
 
