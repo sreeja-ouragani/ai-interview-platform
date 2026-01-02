@@ -1,0 +1,142 @@
+[
+    {
+        "id": "mcq_js_1",
+        "category": "JavaScript",
+        "difficulty": "Easy",
+        "question": "What is the output of: console.log(typeof null)?",
+        "options": [
+            "A) null",
+            "B) undefined",
+            "C) object",
+            "D) number"
+        ],
+        "correct_answer": "C",
+        "explanation": "In JavaScript, typeof null returns 'object'. This is a known bug in JavaScript that has been kept for backward compatibility."
+    },
+    {
+        "id": "mcq_js_2",
+        "category": "JavaScript",
+        "difficulty": "Medium",
+        "question": "What is a closure in JavaScript?",
+        "options": [
+            "A) A function that has access to variables in its outer scope",
+            "B) A way to close a function",
+            "C) A method to terminate loops",
+            "D) A type of object"
+        ],
+        "correct_answer": "A",
+        "explanation": "A closure is a function that has access to variables in its outer (enclosing) lexical scope, even after the outer function has returned."
+    },
+    {
+        "id": "mcq_py_1",
+        "category": "Python",
+        "difficulty": "Easy",
+        "question": "Which of the following is used to define a function in Python?",
+        "options": [
+            "A) function",
+            "B) def",
+            "C) func",
+            "D) define"
+        ],
+        "correct_answer": "B",
+        "explanation": "The 'def' keyword is used to define a function in Python."
+    },
+    {
+        "id": "mcq_py_2",
+        "category": "Python",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(type([]))?",
+        "options": [
+            "A) <class 'array'>",
+            "B) <class 'list'>",
+            "C) <class 'tuple'>",
+            "D) <class 'dict'>"
+        ],
+        "correct_answer": "B",
+        "explanation": "Empty square brackets [] create a list in Python, so type([]) returns <class 'list'>."
+    },
+    {
+        "id": "mcq_dsa_1",
+        "category": "DSA",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "A) O(n)",
+            "B) O(log n)",
+            "C) O(n log n)",
+            "D) O(1)"
+        ],
+        "correct_answer": "B",
+        "explanation": "Binary search has a time complexity of O(log n) because it divides the search space in half with each iteration."
+    },
+    {
+        "id": "mcq_dsa_2",
+        "category": "DSA",
+        "difficulty": "Easy",
+        "question": "Which data structure uses LIFO (Last In First Out)?",
+        "options": [
+            "A) Queue",
+            "B) Stack",
+            "C) Array",
+            "D) Linked List"
+        ],
+        "correct_answer": "B",
+        "explanation": "Stack follows the LIFO principle where the last element added is the first one to be removed."
+    },
+    {
+        "id": "mcq_sys_1",
+        "category": "System Design",
+        "difficulty": "Hard",
+        "question": "What is the purpose of a load balancer?",
+        "options": [
+            "A) To store data",
+            "B) To distribute network traffic across multiple servers",
+            "C) To encrypt data",
+            "D) To compile code"
+        ],
+        "correct_answer": "B",
+        "explanation": "A load balancer distributes incoming network traffic across multiple servers to ensure no single server bears too much load."
+    },
+    {
+        "id": "mcq_db_1",
+        "category": "Database",
+        "difficulty": "Medium",
+        "question": "What does ACID stand for in database transactions?",
+        "options": [
+            "A) Atomicity, Consistency, Isolation, Durability",
+            "B) Accuracy, Consistency, Integrity, Data",
+            "C) Atomicity, Correctness, Isolation, Data",
+            "D) Accuracy, Consistency, Isolation, Durability"
+        ],
+        "correct_answer": "A",
+        "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability - the four key properties of database transactions."
+    },
+    {
+        "id": "mcq_oop_1",
+        "category": "OOP",
+        "difficulty": "Easy",
+        "question": "What is encapsulation in OOP?",
+        "options": [
+            "A) Hiding implementation details",
+            "B) Creating multiple classes",
+            "C) Inheriting properties",
+            "D) Overloading methods"
+        ],
+        "correct_answer": "A",
+        "explanation": "Encapsulation is the bundling of data and methods that operate on that data within a single unit, hiding the internal implementation details."
+    },
+    {
+        "id": "mcq_web_1",
+        "category": "Web Development",
+        "difficulty": "Medium",
+        "question": "What HTTP status code indicates a successful request?",
+        "options": [
+            "A) 404",
+            "B) 500",
+            "C) 200",
+            "D) 301"
+        ],
+        "correct_answer": "C",
+        "explanation": "HTTP status code 200 indicates a successful HTTP request."
+    }
+]
